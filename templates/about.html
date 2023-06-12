@@ -2,6 +2,16 @@
 {% block title %}About{% endblock title %}
 {% block css %}{% endblock css %}
 {% block body %}
-    about
+<div class="container mt-3">
+    {% load static %}
+    <div class="w-full text-center">
+        <img src="{% static 'blog/images/prabal.jpeg' %}" style="text-align:center; border-radius: 50%;" height="180px" >
+        <h1 class="">Creator: Prabaljot Singh</h1>
+    </div>
+    <p class="text-center" style="font-size: 2em;">
+        I am Prabaljot, who created this blogging website. My goal to create this website is that to connect whole world through blogs. I have done a lot of hardwork. I hope that you liked this. <br>
+        You can contact me any time via my email <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBncJJcXZMKvCkMjVZsGwSxWDSNtkFgfpKTVCBtShTfwNcWrLBcdfBKjLVMqxBClCqCchpk"> jotprabal5@gmail.com</a>.
+    </p>
+</div>
 {% endblock body %}
 {% block js %}{% endblock js %}
